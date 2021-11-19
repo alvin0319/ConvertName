@@ -1,0 +1,4 @@
+# When you change this field, you have to replace the language file to correct language
+# You can get language file from https://aka.ms/resourcepacktemplate
+# File extension should be contained in the file name
+language_file: en_us.lang
