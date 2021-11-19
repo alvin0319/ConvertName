@@ -47,10 +47,13 @@ use function explode;
 use function file_exists;
 use function file_get_contents;
 use function method_exists;
+use function preg_replace;
 use function rtrim;
+use function spl_object_hash;
 use function str_contains;
 use function str_replace;
 use function str_starts_with;
+use function strtolower;
 
 final class ConvertName extends PluginBase{
 
