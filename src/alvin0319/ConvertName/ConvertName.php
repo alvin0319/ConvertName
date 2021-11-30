@@ -209,7 +209,7 @@ final class ConvertName extends PluginBase{
 			$air = ItemFactory::air();
 			$key = "item." . $name($air) . ".name";
 			if(isset($foundItems[$key])){
-				$refP = new \ReflectionProperty($air, "name");
+				$refP = new \ReflectionProperty(Item::class, "name");
 				$refP->setAccessible(true);
 				$refP->setValue($air, $foundItems["item." . $name($air) . ".name"]);
 			}
